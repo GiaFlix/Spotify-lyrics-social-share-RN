@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Generatore Instagram",
+    "slug": "my-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "it.giaflix.inst"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "it.giaflix.inst"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97eca2dd-14d1-4e6a-8376-a1e8410e1a1d"
+      }
+    },
+    "plugins": [
+      [
+        "./plug"
+      ]
+    ]
+  }
+}
