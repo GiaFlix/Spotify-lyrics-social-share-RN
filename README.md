@@ -34,6 +34,7 @@ Il file "card.js" contiene il componente della card con il layout stile Spotify.
 
 Per fare la build dell'app, puoi usare i seguenti comandi:
 
+- Per installare le dipendenze/librerie: `npm install` oppure `yarn install`
 - Per lo sviluppo locale: `eas build --profile development --platform android`
 - Per la versione finale: `eas build -p android --profile preview`
 - Per avviare il server locale: `npx expo start`
